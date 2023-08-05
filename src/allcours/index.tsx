@@ -27,7 +27,7 @@ const Allcours = () => {
     return(
         <>
         <div className='containercardvideo'>
-            {data2.map((e: any,i: number) => <Cardvideo name={e.name} time={e.time} cover={ e.url} i={i}/>)}
+            { data2 && data2.map((e: any,i: number) => <Cardvideo name={e.name} time={e.time} cover={ e.url} i={i}/>)}
             </div>
         </>
     )

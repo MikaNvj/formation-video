@@ -44,7 +44,7 @@ const Listevideo = () => {
             <hr></hr>
             <div className="listecours">
                 {/* <p>Vides</p> */}
-                {data.map((e: any) => <TopicItem key={e._id} name={e.name as string} fname={e.fname as string} time={e.time as string} video={e.video}/>)}
+                {data && data.map((e: any) => <TopicItem key={e._id} name={e.name as string} fname={e.fname as string} time={e.time as string} video={e.video}/>)}
             </div>
         </div>
     )

@@ -15,12 +15,12 @@ const Pagecours = () => {
             <div className='containercoursvideo'>
                 <div className='cardvideomap'>
 
-                    {data.map((e: any, i: number) => <Cardvideo name={e.name} time={e.time} cover={e.url} i={i} />)}
+                    {data && data.map((e: any, i: number) => <Cardvideo name={e.name} time={e.time} cover={e.url} i={i} />)}
                 </div>
                 <p>Cours le plus de vues</p>
                 <div className='cardvideomap'>
 
-                    {data.map((e: any, i: number) => <Cardvideo name={e.name} time={e.time} cover={e.url} i={i} />)}
+                    {data && data.map((e: any, i: number) => <Cardvideo name={e.name} time={e.time} cover={e.url} i={i} />)}
                 </div>
             </div>
         </>
