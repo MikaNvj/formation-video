@@ -1,0 +1,15 @@
+.containercoursvideo{
+    width: 100%;
+    height: fit-content;
+    // background-color: red;
+    display: flex;
+
+    flex-direction: column;
+    gap: .2em;
+    .cardvideomap{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        gap: .8em;
+    }
+}

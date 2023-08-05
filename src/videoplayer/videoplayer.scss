@@ -1,0 +1,11 @@
+.video{
+    width: 75%;
+    flex: 1;
+    // background-color: red;
+    video{
+        width: 100%;
+        height: 35em;
+        outline: none;
+        background-color: rgb(210, 210, 210);
+    }
+}

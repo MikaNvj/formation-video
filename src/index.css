@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 117, 154); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(245, 255, 254); 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --image: red;
+}
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  color: #fff; /* Couleur du texte affichant le temps actuel et restant */
+  /* background-color: #007bff; Couleur de fond du texte affichant le temps actuel et restant */
+  /* padding: 2px 4px; Espacement autour du texte */
+}
+video::-webkit-media-controls-fullscreen-button {
+  font-family: "Font Awesome";
+  content: "\f065"; /* Code Unicode de l'icône plein écran */
+}
+video::-webkit-media-controls-timeline {
+  background-color: transparent; /* Couleur de fond de la barre de progression */
+}
+video::-webkit-media-controls-play-button {
+  font-family: "Font Awesome"; /* Assurez-vous que la police est chargée dans votre projet */
+  content: "\f04b"; /* Code Unicode de l'icône play */
+}

@@ -1,0 +1,80 @@
+.container{
+    width: 16vw;
+    height: fit-content;
+    background-color: #fefefe;
+    // box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.133);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 8px;
+    h2{
+        color: rgb(57, 139, 191);
+    }
+    .btn-accueil{
+        font-size: 16px;
+        font-weight: 600;   
+        display: flex;
+        padding-left: 4em;
+        // flex: 1;
+        // align-items: center;
+        // justify-content: center;
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+        ::after{
+            content: '';
+            height: 2em;
+            width: 2em;
+            background-image: url('../assets/home.svg');
+            background-size: contain;
+            position: relative;
+            display: block;
+            transform: translate(-3em, -1.5em);
+        }
+    }
+    .btn-cours{
+        font-size: 16px;
+        font-weight: 600;   
+        display: flex;
+        padding-left: 4em;
+        // flex: 1;
+        // align-items: center;
+        // justify-content: center;
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+        ::after{
+            content: '';
+            height: 2em;
+            width: 2em;
+            background-image: url('../assets/cours.svg');
+            background-size: contain;
+            position: relative;
+            display: block;
+            transform: translate(-3em, -1.5em);
+        }
+    }
+    .btn-abonnement{
+        font-size: 16px;
+        font-weight: 600;   
+        display: flex;
+        padding-left: 4em;
+        // flex: 1;
+        // align-items: center;
+        // justify-content: center;
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+        ::after{
+            content: '';
+            height: 2em;
+            width: 2em;
+            background-image: url('../assets/abonnement.svg');
+            background-size: contain;
+            position: relative;
+            display: block;
+            transform: translate(-3em, -1.5em);
+        }
+    }
+}
